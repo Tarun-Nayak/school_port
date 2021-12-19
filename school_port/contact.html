@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scholl-port</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/eadf2e2471.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="https://img.icons8.com/external-gradient-icons-maxicons/85/000000/external-college-knowledge-gradient-gradient-icons-maxicons.png" /></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="HideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOGS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <h1>
+            CONTACT US
+        </h1>
+    </section>
+    <!--------------------------------->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30163.10936506425!2d78.32897881165869!3d19.09059772860019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcd8b88955f74d9%3A0x56bbabb7066d50fa!2sNirmal%2C%20Telangana!5e0!3m2!1sen!2sin!4v1639332199269!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-ol">
+                <div>
+                    <i class="fa fa-home "></i>
+                    <span>
+                        <h2>
+                            Kamala Nagar,Reddy Function Hall cross Road
+                        </h2>
+                        <p>
+                            Nirmal,Telangana
+                        </p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone "></i>
+                    <span>
+                        <h2>
+                            +91 9003499948
+                        </h2>
+                        <p>
+                            From 10-am To 9-Pm
+                        </p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope "></i>
+                    <span>
+                        <h2>
+                            info@gmail.com
+                        </h2>
+                        <p>
+                            Email us for ur Queriies
+                        </p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-ol">
+
+                <form action="">
+                    <input type="text" placeholder="Enter u  r name" required>
+                    <input type="email" placeholder="Enter u  r mail" required>
+                    <input type="text" placeholder="Enter u  r Subject" required>
+                    <textarea rows="10">Messege</textarea>
+
+                    <button type="submit" class="hero-btn red-btn">Submit</button>
+                </form>
+
+            </div>
+        </div>
+
+    </section>
+    <!---------------------------->
+    <section class=" footer ">
+        <h3>ABOUT US</h3>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim asperiores dolorum iure <br> cupiditate sed! Perspiciatis quasi ratione nisi quae odit?
+        </p>
+        <div class="icons ">
+            <i class="fa fa-facebook "></i>
+            <i class="fa fa-whatsapp "></i>
+            <i class="fa fa-linkedin "></i>
+            <i class="fa fa-instagram "></i>
+            <i class="fa fa-skype "></i>
+            <i class="fa fa-youtube "></i>
+        </div>
+        <p>Made by <i class="fa fa-heart-o "></i> Tarun Code Area </p>
+    </section>
+
+
+
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function ShowMenu() {
+            navlinks.style.right = "0 ";
+        }
+
+        function HideMenu() {
+            navlinks.style.right = "-200px ";
+        }
+    </script>
+</body>
+
+</html>
